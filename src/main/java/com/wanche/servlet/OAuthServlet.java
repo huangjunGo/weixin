@@ -20,9 +20,9 @@ import com.wanche.util.AdvancedUtil;
 public class OAuthServlet extends HttpServlet{
 	private static final long serialVersionUID = -1847238807216447030L;
 	
-	private static final String APPID="wx3891412d093667c3";
+	private static final String APPID="Test";
 	
-	private static final String APPSECRET="a8d3d01950ec7142b313ce4fa26cfaba";
+	private static final String APPSECRET="Test";
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
